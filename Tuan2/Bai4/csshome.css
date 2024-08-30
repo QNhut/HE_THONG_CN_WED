@@ -1,0 +1,77 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+}
+.wrapper{
+    height:900px ;
+    width:  100% ;
+    background-color: white;
+
+}
+.top-menu{
+    height: 10%;
+    width: 100% ;
+    float: left;
+    background-color: aqua;
+}
+.menu{
+    height: 80%;
+    width: 100%;
+    float: left;
+    background-color: rgb(197, 91, 91);
+}
+.menu-left{
+    height: 100%;
+    width: 24% ;
+    float: left;
+    background-image: url("back.jpg");
+}
+.menu-right{
+    height: 100%;
+    width: 76% ;
+    background-color: aquamarine;
+    float: right;
+}
+.text{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(8, 8, 80);
+}
+.gach{
+    font-size: 15px;
+    color: saddlebrown;
+    padding-left: 10px;
+}
+.heading{
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    height: 7%;
+    width: 30% ;
+    font-size: 50px;
+    background-color: #009a00;
+    float: left;
+
+}
+.doan1{
+    padding-top: 15px;
+    width: 90%;
+    font-size: 20px;
+    float: left;
+    padding-left: 50px;
+}
+.doan{
+    padding-top: 15px;
+    width: 72%;
+    font-size: 20px;
+    float: left;
+    padding-left: 50px;
+}.hinh{
+    margin-top: 10px;
+    margin-right: 15px;
+    height: auto;
+    width: 20% ;
+    background-color: #cc911c;
+    float: right;
+}
