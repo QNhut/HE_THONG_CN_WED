@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function checkEmail() {
+            var email = document.getElementById("email").value;
+            var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+            if (emailPattern.test(email)) {
+                alert("Email hợp lệ");
+            } else {
+                alert("Email không hợp lệ");
+            }
+        }
+
+        function checkTen() {
+            var ten = document.getElementById("ten").value;
+            var tenPattern = /^[A-Z][a-z]+(\s[A-Z][a-z]*)+$/;
+            if (tenPattern.test(ten)) {
+                alert("Tên hợp lệ");
+            } else {
+                alert("Tên không hợp lệ");
+            }
+        }
+        function checkSDT(){
+            var sdt = document.getElementById("sdt").value;
+            var sdtPattern = /^0[0-9]{9,10}$/;
+            if(sdtPattern.test(sdt)){
+                alert("Số điện thoại hợp lệ");
+            }else{
+                alert("Số điện thoại không hợp lệ");
+            }
+        }
+    </script>
+</head>
+<body>
+    <label for="email">Email</label>
+    <input type="text" id="email">
+    <button onclick="checkEmail()">Check Email</button>
+    <br>
+    <label for="ten">Tên</label>
+    <input type="text" id="ten">
+    <button onclick="checkTen()">Check Tên</button>
+    <br>
+    <label for="sdt">Số điện thoại</label>
+    <input type="text" id="sdt">
+    <button onclick="checkSDT()">Check Số điện thoại</button>
+    
+</body>
+</html>
